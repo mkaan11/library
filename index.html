@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div id="header"> Book Library</div>
+
+<div id="body"> 
+
+
+
+</div>
+<button id="newBookButton">+</button>
+
+<div id="addPopup" style="display: none">
+    <form id="form">
+        <div>
+        <label for="bookname">Enter Book Name: </label>
+        <input type="text" name="bookname" required> <br>
+        </div>        
+
+        <div>
+        <label for="authorname">Enter Author Name: </label>
+        <input type="text" name="authorname" required> <br>
+        </div>  
+
+        <div>
+            
+        <label for="bookPages">Enter Book Pages: </label>
+        <input type="text" name="bookpagesTotal" style="width: 40px" required> <br>
+        </div>
+
+        
+        <div class="footbar" style="gap: 12px">
+            <button class="bookButton" type='button' style="margin: 0px;" id="addPopupFinalize">➕Add</button>
+            <button class="bookButton" type='button' style="margin: 0px;" id="addPopupCancel">🚫Cancel</button>
+        </div>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
