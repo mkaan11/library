@@ -7,6 +7,8 @@ const addSafeHTML = function (str) {
 	return temp.innerHTML;
 };
 
+
+
 function Book(title, author, totalPages,didRead)  {
     this.title = title,
     this.author = author,
@@ -127,3 +129,4 @@ function addReadChangeAbility() {
 
     
 }
+

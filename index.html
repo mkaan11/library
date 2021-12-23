@@ -33,7 +33,7 @@
         <div>
             
         <label for="bookPages">Enter Book Pages: </label>
-        <input type="text" name="bookpagesTotal" style="width: 40px" required> <br>
+        <input type="text" name="bookpagesTotal" style="width: 40px" required onkeyup="this.value=this.value.replace(/[^\d]/,'')"> <br>
         </div>
 
         
